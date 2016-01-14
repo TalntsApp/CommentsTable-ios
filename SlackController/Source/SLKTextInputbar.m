@@ -328,9 +328,7 @@ NSString * const SLKTextInputbarDidMoveNotification =   @"SLKTextInputbarDidMove
 
 - (BOOL)limitExceeded
 {
-    NSString *text = [self.textView.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-    
-    if (self.maxCharCount > 0 && text.length > self.maxCharCount) {
+    if (self.maxCharCount > 0 && self.textView.text.length > self.maxCharCount) {
         return YES;
     }
     return NO;
