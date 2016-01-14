@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SlackController"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Chat controller with smart text input"
 
   s.homepage     = "https://ramotion.com"
@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
  
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/TalntsApp/CommentsTable-ios.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/TalntsApp/CommentsTable-ios.git", :tag => "0.0.2" }
 
-  s.source_files  = "SlackController", "SlackController/SlackController/**/*.{h,m,swift}"
+  s.source_files  = "SlackController", "SlackController/**/*.{h,m,swift}"
 
   s.requires_arc = true
 
